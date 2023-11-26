@@ -86,7 +86,7 @@ using namespace std;
 int main()
 {
     // Display the header
-    cout << "CALCULATOR VERSION 2" << endl;
+    cout << "CALCULATOR VERSION 5" << endl;
     cout << "Programmed by [Your Name]" << endl;
     cout << endl;
     
