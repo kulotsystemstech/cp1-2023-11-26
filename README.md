@@ -78,13 +78,13 @@ int main()
 
 #### Version 5
 ```cpp
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
-
-int main()
-{
+    #include <iostream>
+    #include <cstdlib>
+    
+    using namespace std;
+    
+    int main()
+    {
     // Display the header
     cout << "CALCULATOR VERSION 5" << endl;
     cout << "Programmed by [Your Name]" << endl;
@@ -157,8 +157,13 @@ int main()
             symbol = '%';
         }
     }
+    else
+    {
+        cout << "INVALID OPERATION!" << endl;
+    }
     
-    // only display result if symbol was changed
+    
+    // only display result if symbol was modified
     if(symbol != ' ')
     {
         cout << num1 << " " << symbol << " " << num2 << " = " << result << endl;
