@@ -78,13 +78,13 @@ int main()
 
 #### Version 5
 ```cpp
-    #include <iostream>
-    #include <cstdlib>
-    
-    using namespace std;
-    
-    int main()
-    {
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
     // Display the header
     cout << "CALCULATOR VERSION 5" << endl;
     cout << "Programmed by [Your Name]" << endl;
